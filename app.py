@@ -1,7 +1,7 @@
 print("Title of program: Yi Feng's Encouragement bot")
 print()
 while True:
-  description = input("Could you describe how you feel in a sentence?")
+  description = input("Could you describe how you feel?")
 
   list_of_words = description.split()
 
@@ -27,14 +27,17 @@ while True:
       feelings_list.append("sad")
       encouragement_list.append("you will do better next time. Hope you are feeling better!")
       counter += 1
-
+    if each_word == "upset":
+      feelings_list.append("upset")
+      encouragement_list.append("you will do better next time. Hope you are feeling better!")
+      counter += 1
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use a different word?"
 
   elif counter == 1:
     
-      output = "It seems that you are feeling quite " + feelings_list[0] + ". Do remember that "+ encouragement_list[0] )"  
+      output = "It seems that you are feeling " + feelings_list[0] + ". Do remember that "+ encouragement_list[0] )"  
 
   else:
 
