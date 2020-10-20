@@ -46,7 +46,7 @@ while True:
 
   elif counter == 1:
     
-      output = "It seems that you are feeling " + feelings_list[0] + ". Do remember that "+ encouragement_list[0] )"  
+      output = "It seems that you are feeling " + feelings_list[0] + ". Do remember that "+ encouragement_list[0] ) 
 
   else:
 
