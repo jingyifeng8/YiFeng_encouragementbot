@@ -27,6 +27,15 @@ while True:
       feelings_list.append("sad")
       encouragement_list.append("you will do better next time")
       counter += 1
+    if each_word == "angry":
+      fealings_list.append("angry")
+      encouragement_list.append("you will overcome whatever it is you are angry at")
+      counter += 1
+    if each_word == "shocked":
+      fealings_list.append("shocked")
+      encouragement_list.append("you need to move on")
+      counter += 1
+
 
   if counter == 0:
     
