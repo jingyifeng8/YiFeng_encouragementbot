@@ -31,6 +31,11 @@ while True:
       feelings_list.append("upset")
       encouragement_list.append("you will do better next time. Hope you are feeling better!")
       counter += 1
+    if each_word == "ecstatic":
+      feelings_list.append("ecstatic")
+      encouragement_list.append("success is not permanent. Keep working hard!")
+      counter += 1
+      
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use a different word?"
